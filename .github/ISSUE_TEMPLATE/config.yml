@@ -10,3 +10,5 @@ issue_templates:
   - name: Bug report
     url: https://github.com/Ferskys/buildermaps/.github/ISSUE_TEMPLATE/bug_report.yml
     about: Report a bug for this project
+  - name: New Repository Request
+    url: https://github.com/Ferskys/buildermaps/.github/ISSUE_TEMPLATE/new_repo.yml
