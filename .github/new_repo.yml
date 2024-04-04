@@ -1,0 +1,24 @@
+name: New Repository Request
+description: Request to create a new empty repository
+title: "[New Repo]: "
+labels: ["new repo", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to request a new repository!
+  - type: input
+    attributes:
+      label: Repository Name
+      description: What should the new repository be called?
+      placeholder: e.g., my-awesome-repo
+      required: true
+  - type: textarea
+    attributes:
+      label: Repository Description
+      description: Please provide a brief description of the new repository.
+      placeholder: e.g., This repo will be used for...
+      required: true
