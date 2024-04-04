@@ -2,6 +2,29 @@ blank_issues_enabled: false
 issue_templates:
   - name: New Repository Request
     about: Request to create a new empty repository
-    filename: 02-new_repo.yml
+    title: "[New Repo]: "
+    labels: ["new repo", "triage"]
+    projects: ["octo-org/1", "octo-org/44"]
+    assignees:
+      - octocat
+    body:
+      - type: markdown
+        attributes:
+          value: |
+            Thanks for taking the time to request a new repository!
+      - type: input
+        id: repo-name
+        attributes:
+          label: Repository Name
+          description: What should the new repository be called?
+          placeholder: e.g., my-awesome-repo
+          required: true
+      - type: textarea
+        id: repo-description
+        attributes:
+          label: Repository Description
+          description: Please provide a brief description of the new repository.
+          placeholder: e.g., This repo will be used for...
+          required: true
   - name: Bug Report
     about: Create a report to help us improve
