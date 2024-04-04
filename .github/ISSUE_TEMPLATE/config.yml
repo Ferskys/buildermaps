@@ -12,3 +12,4 @@ issue_templates:
     about: Report a bug for this project
   - name: New Repository Request
     url: https://github.com/Ferskys/buildermaps/.github/ISSUE_TEMPLATE/new_repo.yml
+    about: Request a new repository for this project
