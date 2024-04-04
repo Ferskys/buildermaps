@@ -6,3 +6,7 @@ contact_links:
   - name: GitHub Security Bug Bounty
     url: https://bounty.github.com/
     about: Please report security vulnerabilities here.
+issue_templates:
+  - name: Bug report
+    url: https://github.com/Ferskys/buildermaps/issues/new?template=bug_report.yml
+    about: Report a bug for this project
