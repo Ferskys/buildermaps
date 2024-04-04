@@ -1,0 +1,24 @@
+---
+name: Bug Report
+description: Report a bug or unexpected behavior in the project
+
+title: "[BUG] {summary of the bug}"
+
+body: |
+  **Please describe the bug in detail:**
+
+  - What were you trying to do?
+  - What happened instead?
+  - Are there any error messages?
+
+  **Additional information:**
+
+  - Browser (if applicable):
+  - Operating system:
+  - Steps to reproduce (if possible):
+
+labels:
+  - bug
+
+assignees:
+  - "<Your username>"
