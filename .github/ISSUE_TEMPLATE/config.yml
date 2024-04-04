@@ -8,5 +8,4 @@ contact_links:
     about: Please report security vulnerabilities here.
 issue_templates:
   - name: New Repository Request
-    file: .github/ISSUE_TEMPLATE/02-new_repo.yml
-  - name: Bug Report
+    file: 02-new_repo.yml
