@@ -7,9 +7,11 @@ contact_links:
     url: https://bounty.github.com/
     about: Please report security vulnerabilities here.
 issue_templates:
-  - name: Bug report
-    url: https://github.com/Ferskys/buildermaps/.github/ISSUE_TEMPLATE/01-bug_report.yml
-    about: Report a bug for this project
   - name: New Repository Request
-    url: https://github.com/Ferskys/buildermaps/.github/ISSUE_TEMPLATE/02-new_repo.yml
-    about: Request a new repository for this project
+    about: Request to create a new empty repository
+    title: "[New Repo]: "
+    filename: 02-new_repo.yml
+  - name: Bug Report
+    about: Create a report to help us improve
+    title: "[Bug]: "
+    filename: 01-bug_report.yml
