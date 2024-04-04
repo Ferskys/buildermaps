@@ -8,4 +8,7 @@ contact_links:
     about: Please report security vulnerabilities here.
 issue_templates:
   - name: New Repository Request
-    file: 02-new_repo.yml
+    description: Request to create a new empty repository
+    labels: ["new repo", "triage"]
+    title: "[New Repo]: "
+    body: .github/ISSUE_TEMPLATE/02-new_repo.yml
