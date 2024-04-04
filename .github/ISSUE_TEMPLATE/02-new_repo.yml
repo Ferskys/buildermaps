@@ -11,12 +11,14 @@ body:
       value: |
         Thanks for taking the time to request a new repository!
   - type: input
+    id: repo-name
     attributes:
       label: Repository Name
       description: What should the new repository be called?
       placeholder: e.g., my-awesome-repo
       required: true
   - type: textarea
+    id: repo-description
     attributes:
       label: Repository Description
       description: Please provide a brief description of the new repository.
