@@ -9,5 +9,6 @@ contact_links:
 issue_templates:
   - name: New Repository Request
     about: Request to create a new empty repository
+    filename: 02-new_repo.yml
   - name: Bug Report
     about: Create a report to help us improve
